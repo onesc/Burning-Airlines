@@ -7,7 +7,6 @@ gem 'rails', '4.2.6'
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -31,6 +30,8 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'pry-rails'
+
+gem 'casein'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
