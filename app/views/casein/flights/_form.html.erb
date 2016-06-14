@@ -21,9 +21,9 @@
 
 <div class="row">
 	<div class="col-lg-6">
-		<%= casein_text_field f, f.object, :plane_id %>
+		<%= casein_collection_select f, f.object, :flights, :plane_id, Plane.all, :id, :name %>
 	</div>
 	<div class="col-lg-6">
-		
+
 	</div>
 </div>
