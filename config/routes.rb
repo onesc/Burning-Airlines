@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+	#Casein routes
+	namespace :casein do
+		resources :flights
+	end
+
   resources :planes
   resources :flights
   # The priority is based upon order of creation: first created -> highest priority.
