@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+root 'casein/admin_user_sessions#new'
 	#Casein routes
 	namespace :casein do
 		resources :planes
