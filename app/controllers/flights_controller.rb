@@ -1,4 +1,4 @@
-class FlightsController < ActionController::API
+class FlightsController < ApplicationController
   before_action :set_flight, only: [:show]
 
   def index
